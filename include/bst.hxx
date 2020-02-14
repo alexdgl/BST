@@ -49,6 +49,10 @@ class bst
         bst(bst&& bst) noexcept : 
             root{std::move(bst.root)} {}
 
+
+
+	void print(){};
+
         iterator begin()
         {
             if(!root)
